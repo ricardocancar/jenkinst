@@ -1,7 +1,7 @@
 pipeline  {
-	agen  any
-	stages{
-		stage ("build project"){
+	agent  any
+	stages {
+		stage ("build project") {
 			steps {
 				sh "echo project is building"
 			}
